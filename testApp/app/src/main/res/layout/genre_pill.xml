@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/pill_shape"
+    android:maxWidth="200dp"
+    android:orientation="horizontal"
+    android:paddingHorizontal="1dp">
+
+    <TextView
+        android:id="@+id/genre_pill_tex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:text="Placeholder"
+        android:textColor="#ffff"
+        app:autoSizeMaxTextSize="16dp"
+        app:autoSizeMinTextSize="12dp"
+        app:autoSizeTextType="uniform" />
+
+    <ImageButton
+        android:id="@+id/genre_pill_close_button"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="end"
+        android:layout_marginHorizontal="10dp"
+        android:backgroundTint="#0000"
+        android:padding="2dp"
+        android:src="@drawable/baseline_close_24"
+        android:textColor="#ffff"
+        android:textSize="15dp" />
+
+</LinearLayout>
